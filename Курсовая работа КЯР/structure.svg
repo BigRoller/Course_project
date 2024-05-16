@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:v='http://schemas.microsoft.com/visio/2003/SVGExtensions/' xml:space='preserve' xmlns:xlink='http://www.w3.org/1999/xlink' width='779.5276pt' height='566.92914pt' viewBox='0 0 779.5276 566.92914'>
+ <v:documentProperties>
+  <v:userDefs>
+   <v:ud v:nameU='msvNoAutoConnect' v:val='1'/>
+  </v:userDefs>
+ </v:documentProperties>
+ <g id='SFixTitle'/>
+ <g id='SContent'>
+  <g>
+   <g transform='matrix(1,0,0,-1,0,566.92914)'>
+    <g transform='matrix(1,0,0,1,531.49603,240.94487)' v:mID='1'>
+     <title>Shape1</title>
+     <path d='M0,42.519687653 L85.039375305,42.519687653 L85.039375305,42.519687653 L85.039375305,0 L85.039375305,0 L0,0 L0,0 L0,42.519687653 ' stroke='#000000' stroke-width='1.4173229' stroke-linecap='round' fill='#FFFFFF'  fill-rule='evenodd'/>
+     <g transform='matrix(1,0,0,1,1.4173241,1.417326)'>
+      <text x='10.078669' y='4.949291' class='TextStyle0' fill='#000000' opacity='1' transform='matrix(1,0,0,-1,0,22.317163)'>Главная страница</text>
+     </g>
+    </g>
+    <g transform='matrix(1,0,0,1,393.3071,141.7323)' v:mID='2'>
+     <title>Shape2</title>
+     <path d='M0,56.692913055 L56.692913055,56.692913055 L56.692913055,56.692913055 L56.692913055,0 L56.692913055,0 L0,0 L0,0 L0,56.692913055 ' stroke='#000000' stroke-width='1.4173229' stroke-linecap='round' fill='#FFFFFF'  fill-rule='evenodd'/>
+     <g transform='matrix(1,0,0,1,1.4173222,1.4173222)'>
+      <text x='17.341091' y='4.949291' class='TextStyle0' fill='#000000' opacity='1' transform='matrix(1,0,0,-1,0,29.403778)'>О нас</text>
+     </g>
+    </g>
+    <g transform='matrix(1,0,0,1,496.06296,141.7323)' v:mID='3'>
+     <title>Shape3</title>
+     <path d='M0,56.692913055 L56.692913055,56.692913055 L56.692913055,56.692913055 L56.692913055,0 L56.692913055,0 L0,0 L0,0 L0,56.692913055 ' stroke='#000000' stroke-width='1.4173229' stroke-linecap='round' fill='#FFFFFF'  fill-rule='evenodd'/>
+     <g transform='matrix(1,0,0,1,1.4173222,1.4173222)'>
+      <text x='13.879245' y='4.949291' class='TextStyle0' fill='#000000' opacity='1' transform='matrix(1,0,0,-1,0,29.403778)'>Товары</text>
+     </g>
+    </g>
+    <g transform='matrix(1,0,0,1,595.2756,141.7323)' v:mID='4'>
+     <title>Shape4</title>
+     <path d='M0,56.692913055 L56.692913055,56.692913055 L56.692913055,56.692913055 L56.692913055,0 L56.692913055,0 L0,0 L0,0 L0,56.692913055 ' stroke='#000000' stroke-width='1.4173229' stroke-linecap='round' fill='#FFFFFF'  fill-rule='evenodd'/>
+     <g transform='matrix(1,0,0,1,1.4173222,1.4173222)'>
+      <text x='10.47983' y='4.949291' class='TextStyle0' fill='#000000' opacity='1' transform='matrix(1,0,0,-1,0,29.403778)'>Контакты</text>
+     </g>
+    </g>
+    <g transform='matrix(1,0,0,1,687.4016,141.7323)' v:mID='5'>
+     <title>Shape5</title>
+     <path d='M0,56.692913055 L56.692913055,56.692913055 L56.692913055,56.692913055 L56.692913055,0 L56.692913055,0 L0,0 L0,0 L0,56.692913055 ' stroke='#000000' stroke-width='1.4173229' stroke-linecap='round' fill='#FFFFFF'  fill-rule='evenodd'/>
+     <g transform='matrix(1,0,0,1,1.4173222,1.4173222)'>
+      <text x='16.454987' y='4.949291' class='TextStyle0' fill='#000000' opacity='1' transform='matrix(1,0,0,-1,0,29.403778)'>Войти</text>
+     </g>
+    </g>
+    <g transform='matrix(1,0,0,1,687.4016,42.519684)' v:mID='6'>
+     <title>Shape6</title>
+     <path d='M0,56.692913055 L56.692913055,56.692913055 L56.692913055,56.692913055 L56.692913055,0 L56.692913055,0 L0,0 L0,0 L0,56.692913055 ' stroke='#000000' stroke-width='1.4173229' stroke-linecap='round' fill='#FFFFFF'  fill-rule='evenodd'/>
+     <g transform='matrix(1,0,0,1,1.4173222,1.4173222)'>
+      <text x='5.189388' y='4.949291' class='TextStyle0' fill='#000000' opacity='1' transform='matrix(1,0,0,-1,0,29.403778)'>Регистрация</text>
+     </g>
+    </g>
+    <g transform='matrix(1,0,0,1,421.65356,198.4252)' v:mID='7'>
+     <title>Dynamic connector.7</title>
+     <g transform='matrix(1,0,0,1,0,0)' v:mID='7'>
+      <title>Dynamic connector.7</title>
+      <path d='M0,0 L0,17.716535568 L0,17.716535568 L152.362213135,17.716535568 L152.362213135,17.716535568 L152.362213135,42.519687653 ' stroke='#000000' stroke-width='1.4173229' stroke-linecap='round' fill='none' stroke-opacity='0'/>
+     </g>
+     <path d='M0,0 L0,17.716535568 L0,17.716535568 L152.362213135,17.716535568 L152.362213135,17.716535568 L152.362213135,42.519687653 ' stroke='#000000' stroke-width='1.4173229' stroke-linecap='round' fill='none'/>
+    </g>
+    <g transform='matrix(1,0,0,1,574.01575,198.4252)' v:mID='8'>
+     <title>Dynamic connector.8</title>
+     <path d='M141.732284546,0 L141.732284546,17.716535568 L141.732284546,17.716535568 L0,17.716535568 ' stroke='#000000' stroke-width='1.4173229' stroke-linecap='round' fill='none'/>
+    </g>
+    <g transform='matrix(1,0,0,1,524.4095,198.4252)' v:mID='9'>
+     <title>Dynamic connector.9</title>
+     <path d='M0,0 L0,17.716535568 ' stroke='#000000' stroke-width='1.4173229' stroke-linecap='round' fill='none'/>
+    </g>
+    <g transform='matrix(1,0,0,1,616.5354,198.4252)' v:mID='10'>
+     <title>Dynamic connector.10</title>
+     <path d='M7.086614132,0 L7.086614132,17.716535568 L7.086614132,17.716535568 L0,17.716535568 ' stroke='#000000' stroke-width='1.4173229' stroke-linecap='round' fill='none'/>
+    </g>
+    <g transform='matrix(1,0,0,1,715.7481,99.2126)' v:mID='11'>
+     <title>Dynamic connector.11</title>
+     <path d='M0,0 L0,42.519687653 ' stroke='#000000' stroke-width='1.4173229' stroke-linecap='round' fill='none'/>
+    </g>
+    <g transform='matrix(1,0,0,1,574.01575,70.866135)' v:mID='12'>
+     <title>Dynamic connector.12</title>
+     <path d='M-5.760000229,142.395599365 L0,145.275604248 L-5.760000229,148.155593872 M-5.759999752,142.395599365 C-4.608000278,144.123596191 -4.608000278,146.427597046 -5.759999752,148.155593872 ' stroke='#000000' stroke-width='1.4173229' fill='#000000'  fill-rule='evenodd' transform='matrix(0,1,-1,-0,145.2756,145.2756)'/>
+     <path d='M113.385826111,0 L0,0 L0,0 L0,145.275604248 ' stroke='#000000' stroke-width='1.4173229' stroke-linecap='round' fill='none'/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <style type='text/css'><![CDATA[ .TextStyle0 {font-family:Calibri;font-size:8.248819px;} ]]></style>
+</svg>

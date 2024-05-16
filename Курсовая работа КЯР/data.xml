@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/data.css"?>
+<!DOCTYPE products [
+<!ELEMENT products (nName, nPrice, nDiscount, nimgSource, product, price, discount, imgSource)>
+<!ELEMENT product (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT discount (#PCDATA)>
+<!ELEMENT imgSource (#PCDATA)>
+]>
+<products>
+    <head>
+        <nName>Название</nName>
+        <nPrice>Цена</nPrice>
+        <nDiscount>Скидка</nDiscount>
+        <nimgSource>Путь картинки</nimgSource>
+    </head>
+    <row class="row meat">
+        <product>Cосиски Останкино Докторские В/С 1 кг</product>
+        <price>10.25</price>
+        <discount>12%</discount>
+        <imgSource>../images/products/sosiski.jpg</imgSource>
+    </row>
+    <row class="row milk">
+        <product>Кефир Агуша, 200 мл</product>
+        <price>1.87</price>
+        <discount>12%</discount>
+        <imgSource>../images/products/kefir.jpg</imgSource>
+    </row>
+    <row class="row milk">
+        <product>Молоко «Са­вуш­кин» уль­тра­па­сте­ри­зо­ван­ное, 3.1% 1 л</product>
+        <price>4.20</price>
+        <discount>12%</discount>
+        <imgSource>../images/products/moloko.webp</imgSource>
+    </row>
+    <row class="row fish">
+        <product>Сельдь «Санта Бре­мор» сла­бо­со­ле­ная, 240 г</product>
+        <price>3.76</price>
+        <discount>23%</discount>
+        <imgSource>../images/products/seld.webp</imgSource>
+    </row>
+    <row class="row snacks">
+        <product>Пе­че­нье «Бе­ло­го­рье» Ка­мил­ла, 550 г</product>
+        <price>6.63</price>
+        <discount>10%</discount>
+        <imgSource>../images/products/pechenki.webp</imgSource>
+    </row>
+    <row class="row milk">
+        <product>Сырок тво­рож­ный гла­зи­ро­ван­ный «Мо­лоч­ная стра­на» Кар­тош­ка, 18%, 45г</product>
+        <price>1.87</price>
+        <discount>12%</discount>
+        <imgSource>../images/products/sirok.webp</imgSource>
+    </row>
+    <row class="row snacks">
+        <product>Шо­ко­лад­ный ба­тон­чик «Snickers» с лесным орехом, 2х40.5 г</product>
+        <price>3.78</price>
+        <discount>12%</discount>
+        <imgSource>../images/products/snickers.webp</imgSource>
+    </row>
+    <row class="row drinks">
+        <product>Чай ли­сто­вой «Greenfield» черный, Earl Grey Fantasy, 100 г</product>
+        <price>4.76</price>
+        <discount>11%</discount>
+        <imgSource>../images/products/chai.webp</imgSource>
+    </row>
+    <row class="row snacks">
+        <product>Снеки карт.мира бавар.колбаски 180Г</product>
+        <price>5.79</price>
+        <discount>13%</discount>
+        <imgSource>../images/products/chips.png</imgSource>
+    </row>
+    <row class="row snacks">
+        <product>Чипсы «Lay's» лоб­стер, 140 г</product>
+        <price>4.40</price>
+        <discount>12%</discount>
+        <imgSource>../images/products/chips1.webp</imgSource>
+    </row>
+    <row class="row snacks">
+        <product>Ку­ку­руз­ные па­лоч­ки «Cheetos» сыр, 50 г</product>
+        <price>2.00</price>
+        <discount>10%</discount>
+        <imgSource>../images/products/chips2.webp</imgSource>
+    </row>
+        <row class="row snacks">
+        <product>Чипсы «Mega Chips» сме­та­на и лук, 200 г</product>
+        <price>4.09</price>
+        <discount>14%</discount>
+        <imgSource>../images/products/chips3.webp</imgSource>
+    </row>
+        <row class="row snacks">
+        <product>Чипсы «Lay's» сме­та­на и зелень, 70 г</product>
+        <price>2.34</price>
+        <discount>9%</discount>
+        <imgSource>../images/products/chips4.webp</imgSource>
+    </row>
+        <row class="row snacks">
+        <product>Со­лом­ка кар­то­фель­ная «Буль­ба» Sticks, со­лом­ка, кетчуп, 75 г</product>
+        <price>2.59</price>
+        <discount>10%</discount>
+        <imgSource>../images/products/chips5.webp</imgSource>
+    </row>
+        <row class="row snacks">
+        <product>Чипсы «Lay's» сме­та­на и лук, 70 г</product>
+        <price>2.34</price>
+        <discount>13%</discount>
+        <imgSource>../images/products/chips6.webp</imgSource>
+    </row>
+        <row class="row snacks">
+        <product>Се­меч­ки под­сол­неч­ни­ка «Ни­ки­тин» Эконом, 300 г</product>
+        <price>3.75</price>
+        <discount>12%</discount>
+        <imgSource>../images/products/chips7.webp</imgSource>
+    </row>
+        <row class="row cheases">
+        <product>Сыр «Верх­не­двин­ский мас­ло­сыр­за­вод» Мол­дав­ский особый, 40%, 1 кг фасовка 0,4 - 0,5 кг</product>
+        <price>19.17</price>
+        <discount>11%</discount>
+        <imgSource>../images/products/chease1.webp</imgSource>
+    </row>
+        <row class="row cheases">
+        <product>Сыр по­лутвер­дый «Моzzarella» пицца, 40%, 370 г 384 г</product>
+        <price>9.65</price>
+        <discount>10%</discount>
+        <imgSource>../images/products/chease2.webp</imgSource>
+    </row>
+    <row class="row cheases">
+        <product>Сыр по­лутвер­дый «Caseificio da Stefano» Pepeneretto, 60%, 1 кг фасовка 0.2-0.25 кг</product>
+        <price>75.99</price>
+        <discount>12%</discount>
+        <imgSource>../images/products/chease3.webp</imgSource>
+    </row>
+        <row class="row cheases">
+        <product>Сыр по­лутвер­дый «Брест-Ли­тов­ск» Ма­а­сдам, 45%, 130 г 153 г</product>
+        <price>3.88</price>
+        <discount>15%</discount>
+        <imgSource>../images/products/chease4.webp</imgSource>
+    </row>
+        <row class="row cheases">
+        <product>Сыр по­лутвер­дый «Брест-Ли­тов­ск» Сли­воч­ный, 50%, 200 г 198 г</product>
+        <price>4.94</price>
+        <discount>13%</discount>
+        <imgSource>../images/products/chease5.webp</imgSource>
+    </row>
+        <row class="row cheases">
+        <product>Сыр по­лутвер­дый «Брест-Ли­тов­ск» по­ше­хон­ский, 45%, 200 г 200 г</product>
+        <price>4.58</price>
+        <discount>11%</discount>
+        <imgSource>../images/products/chease6.webp</imgSource>
+    </row>
+    <row class="row drinks">
+        <product>На­пи­ток га­зи­ро­ван­ный «Pepsi» 1.5 л</product>
+        <price>3.22</price>
+        <discount>10%</discount>
+        <imgSource>../images/products/drink1.webp</imgSource>
+    </row>
+        <row class="row drinks">
+        <product>На­пи­ток га­зи­ро­ван­ный «Coca-Cola» 1 л</product>
+        <price>2.69</price>
+        <discount>9%</discount>
+        <imgSource>../images/products/drink2.webp</imgSource>
+    </row>
+        <row class="row drinks">
+        <product>На­пи­ток га­зи­ро­ван­ный «Fanta» апель­син, 500 мл</product>
+        <price>1.85</price>
+        <discount>11%</discount>
+        <imgSource>../images/products/drink3.webp</imgSource>
+    </row>
+        <row class="row drinks">
+        <product>Вода пи­тье­вая нега­зи­ро­ван­ная «Aura» 1.5 л</product>
+        <price>1.21</price>
+        <discount>13%</discount>
+        <imgSource>../images/products/drink4.webp</imgSource>
+    </row>
+    <row class="row drinks">
+        <product>Вода пи­тье­вая «Aquale» сред­не­га­зи­ро­ван­ная, 1.5 л</product>
+        <price>0.96</price>
+        <discount>5%</discount>
+        <imgSource>../images/products/drink5.webp</imgSource>
+    </row>
+    <row class="row drinks">
+        <product>На­пи­ток га­зи­ро­ван­ный «Mirinda» 1.5 л</product>
+        <price>3.17</price>
+        <discount>7%</discount>
+        <imgSource>../images/products/drink6.webp</imgSource>
+    </row>
+    <row class="row meat">
+        <product>По­лу­фаб­ри­кат ру­лен­ный фор­ман­ный мясной кол­бас­ки «По-фран­цуз­ки» охла­жден­ные, 1/600 г</product>
+        <price>9.99</price>
+        <discount>2%</discount>
+        <imgSource>../images/products/meat1.webp</imgSource>
+    </row>
+        <row class="row meat">
+        <product>По­лу­фаб­ри­кат кол­бас­ки «Неж­ны­е» охла­жде­ные, 1/600 г</product>
+        <price>9.99</price>
+        <discount>4%</discount>
+        <imgSource>../images/products/meat2.webp</imgSource>
+    </row>
+    <row class="row meat">
+        <product>Кол­бас­ки из мяса цыплят-брой­ле­ров «По-ита­льян­ски» охла­жден­ные, 600 г</product>
+        <price>8.83</price>
+        <discount>7%</discount>
+        <imgSource>../images/products/meat3.webp</imgSource>
+    </row>
+    <row class="row meat">
+        <product>Со­сис­ки «Грод­нен­ский мя­со­ком­би­нат» Тро­иц­кие, высший сорт, 370 г</product>
+        <price>4.86</price>
+        <discount>15%</discount>
+        <imgSource>../images/products/meat4.webp</imgSource>
+    </row>
+    <row class="row meat">
+        <product>Кол­ба­са ва­ре­ная «Брест­ский мя­со­ком­би­нат» Мор­та­дел­ла, высший сорт, 400г</product>
+        <price>4.22</price>
+        <discount>10%</discount>
+        <imgSource>../images/products/meat5.webp</imgSource>
+    </row>
+        <row class="row fish">
+        <product>Кета «А­ва­ча» ку­соч­ки с кожей хо­лод­но­го коп­че­ния, 200 г</product>
+        <price>14.99</price>
+        <discount>9%</discount>
+        <imgSource>../images/products/fish1.webp</imgSource>
+    </row>
+    <row class="row fish">
+        <product>Сельдь «Санта Бре­мор» Се­ле­доч­ка к кар­тош­ке с укро­пом, 500 г</product>
+        <price>9.30</price>
+        <discount>7%</discount>
+        <imgSource>../images/products/fish2.webp</imgSource>
+    </row>
+    <row class="row fish">
+        <product>Форель «Ба­рен­це­во» ма­ло­со­ле­ная, 200 г</product>
+        <price>14.45</price>
+        <discount>8%</discount>
+        <imgSource>../images/products/fish3.webp</imgSource>
+    </row>
+    <row class="row fish">
+        <product>Шпроты «За Ро­ди­ну» в масле, 160 г</product>
+        <price>3.67</price>
+        <discount>3%</discount>
+        <imgSource>../images/products/fish4.webp</imgSource>
+    </row>
+    <row class="row fish">
+        <product>Кре­вет­ки «VICI» Ко­ро­лев­ские, варено-мо­ро­же­ные в пан­ци­ре, 1 кг фасовка 0.45 - 0.5 кг</product>
+        <price>19.99</price>
+        <discount>15%</discount>
+        <imgSource>../images/products/fish5.webp</imgSource>
+    </row>
+    <row class="row fish">
+        <product>Тунец «Oggo» филе в соб­ствен­ном соку, 170 г</product>
+        <price>7.30</price>
+        <discount>11%</discount>
+        <imgSource>../images/products/fish6.webp</imgSource>
+    </row>
+    <row class="row milk">
+        <product>Мо­лоч­ный кок­тейль «Топ» со вкусом чер­ни­ки, 2%, 450 г</product>
+        <price>2.05</price>
+        <discount>9%</discount>
+        <imgSource>../images/products/milk1.webp</imgSource>
+    </row>
+    <row class="row milk">
+        <product>Кок­тейль «Не­по­се­да» ба­на­но­вый с мо­ло­ком, 200 мл</product>
+        <price>1.49</price>
+        <discount>6%</discount>
+        <imgSource>../images/products/milk2.webp</imgSource>
+    </row>
+    <row class="row milk">
+        <product>Биой­о­гурт «Ак­ти­Био» с клуб­ни­кой и зем­ля­ни­кой 1,5%, 260 г</product>
+        <price>2.49</price>
+        <discount>8%</discount>
+        <imgSource>../images/products/milk3.webp</imgSource>
+    </row>
+        <row class="row milk">
+        <product>Биой­о­гурт «Ак­ти­Био» с вишней, яб­ло­ком и ма­ли­ной без сахара 2,9%, 130 г</product>
+        <price>1.79</price>
+        <discount>14%</discount>
+        <imgSource>../images/products/milk4.webp</imgSource>
+    </row>
+</products>

@@ -1,0 +1,128 @@
+$textColor1: #2200AA;
+@mixin opacity {
+  &:before {
+    content: "";
+    position: absolute;
+    background-color: #0083BB;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.7;
+  }
+}
+$heightSlider: 532px;  
+body {
+height: 1100px;
+display: flex;
+flex-flow: column;
+  margin: 0px;
+  background: url("../images/Snow.svg");
+  .bestProducts {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+  }
+  .svg {
+    display: flex;
+    justify-content: center;
+  }
+  .conteiner5 {
+    position: relative;
+    align-self: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 550px;
+    height: 500px;
+    margin-top: 30px;
+    $color: white;
+    @include opacity;
+    &:before {
+        border-radius: 50px;
+    }
+    .text1 {
+        position: relative;
+        color: $color;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 20px 0 40px 0;
+    }
+    form {
+        %form {
+            background-color: white;
+            border-radius: 50px;
+            opacity: 0.5;
+            border: none;
+        }
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+        flex-flow: column;
+        label {
+            position: relative;
+            color: $color;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        input {
+            position: relative;
+            width: 455px;
+            height: 55px;
+            margin-bottom: 20px;
+            @extend %form;
+        }
+        .row {
+            position: relative;
+            display: flex;
+            flex-flow: row;
+            justify-content: flex-start;
+            box-sizing: border-box;
+            width: 100%;
+            height: auto;
+            color: $color;
+            button {
+                position: relative;
+                color: rgba(0, 0, 0, 1);
+                font-weight: bold;
+                width: 123px;
+                height: 46px;
+                margin-left: 40px;
+                @extend %form;
+            }
+            .conteiner6 {
+              display: flex;
+              width: 100%;
+              flex-flow: row;
+              .text2 {
+                  margin-left: auto;
+              }
+              .text3 {
+                  margin-left: 5px;
+                  text-decoration: underline;
+                  font-style: italic;
+                  margin-right: 40px;
+              }
+          }
+        }
+    }
+    @media (max-width: 550px) {
+      width: 100%;
+      form {
+        input {
+          width: calc(100% - 100px);
+        }
+        .row > .conteiner6{
+          flex-direction: column;
+          align-items: center;
+          .text2, .text3 {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+body {
+  height: 1100px;
+  display: flex;
+  flex-flow: column;
+  margin: 0px;
+  background: url("../images/Snow.svg");
+}
+body .bestProducts {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+body .svg {
+  display: flex;
+  justify-content: center;
+}
+body .conteiner5 {
+  position: relative;
+  align-self: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 550px;
+  height: 500px;
+  margin-top: 30px;
+}
+body .conteiner5:before {
+  content: "";
+  position: absolute;
+  background-color: #0083BB;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+body .conteiner5:before {
+  border-radius: 50px;
+}
+body .conteiner5 .text1 {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 20px 0 40px 0;
+}
+body .conteiner5 form {
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+body .conteiner5 form .row button, body .conteiner5 form label input {
+  background-color: white;
+  border-radius: 50px;
+  opacity: 0.5;
+  border: none;
+}
+body .conteiner5 form label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+body .conteiner5 form label .text0 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+body .conteiner5 form label input {
+  position: relative;
+  width: 455px;
+  height: 55px;
+  margin-bottom: 20px;
+}
+body .conteiner5 form .row {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+body .conteiner5 form .row button {
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  width: 123px;
+  height: 46px;
+}
+body .conteiner5 form .row .column {
+  display: flex;
+  flex-flow: column;
+  margin-left: 20px;
+}
+body .conteiner5 form .row .column .text2, body .conteiner5 form .row .column .text3 {
+  color: white;
+  font-size: 14px;
+}
+body .conteiner5 a {
+  position: relative;
+  align-self: flex-end;
+  color: white;
+  text-decoration: underline;
+  margin: 50px 50px 0 0;
+}
+@media (max-width: 550px) {
+  body .conteiner5 {
+    width: 100%;
+  }
+  body .conteiner5 form button {
+    margin-left: 40px;
+  }
+  body .conteiner5 form label input {
+    width: calc(100% - 100px);
+  }
+}

@@ -1,0 +1,101 @@
+body {
+  margin: 0px;
+  background: url("../images/Snow.svg");
+}
+body .bestProducts {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+body .svg {
+  display: flex;
+  justify-content: center;
+}
+body .conteiner5 {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  width: calc(100% - 20px);
+  height: auto;
+  margin: 0 0 20px 0;
+  box-sizing: border-box;
+  padding: 30px 20px 0 0;
+  margin-left: 20px;
+}
+body .conteiner5 .text {
+  order: 1;
+  position: relative;
+  width: 350px;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px 0 10px 20px;
+  line-height: 6px;
+}
+body .conteiner5 .text p {
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-size: 16px;
+}
+body .conteiner5 .text .bold {
+  font-weight: bold;
+}
+body .conteiner5 .text .light {
+  font-style: italic;
+}
+body .conteiner5 .text:before {
+  content: "";
+  position: absolute;
+  background-color: #0083BB;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+body .conteiner5 .text:before {
+  border-radius: 50px;
+}
+body .conteiner5 iframe {
+  order: 2;
+}
+@media (max-width: 1200px) {
+  body .conteiner5 iframe {
+    width: 58vw;
+    height: 58vw;
+  }
+}
+@media (max-width: 1000px) {
+  body .conteiner5 {
+    flex-flow: column;
+  }
+  body .conteiner5 .text {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-self: center;
+    order: 2;
+    width: 95%;
+  }
+  body .conteiner5 .text .div1, body .conteiner5 .text .div2 {
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+  }
+  body .conteiner5 .text .div1 p, body .conteiner5 .text .div2 p {
+    line-height: normal;
+    margin: 5px;
+    overflow-wrap: break-word;
+  }
+  body .conteiner5 iframe {
+    align-self: center;
+    order: 1;
+    margin-bottom: 20px;
+    width: 90vw;
+    height: 90vw;
+  }
+}
